@@ -510,7 +510,7 @@ def render_tab5():
     if ticker != "":
         
         # Get user input for comparison
-        compare_ticker = st.selectbox("Ticker to compare with", ticker_list, key=15)
+        compare_ticker = st.selectbox("Ticker to compare with:", ticker_list, key=15, index=2)
         
         col1, col2=st.columns(2)
         
